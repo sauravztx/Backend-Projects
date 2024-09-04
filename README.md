@@ -1,28 +1,22 @@
-Here's the corrected version of the `README.md` formatted correctly:
-
-```markdown
 # MERN Backend Projects
 
 This repository contains all the backend projects I am working on while learning the MERN stack (MongoDB, Express, React, Node.js). It serves as a progress tracker for my learning journey in backend development.
 
 ## Projects Included
 
-1. **Project Name 1**
-   - **Description:** Brief description of the project.
-   - **Technologies:** List of technologies used (e.g., Node.js, Express, MongoDB).
-   - **Status:** Ongoing / Completed.
+1. **Basics 01**
+   - **Description:** Basics of Node.js & Express.js.
+   - **Technologies:** Node.js, Express.
+   - **Status:** Not a project.
 
-2. **Project Name 2**
-   - **Description:** Brief description of the project.
-   - **Technologies:** List of technologies used.
-   - **Status:** Ongoing / Completed.
+2. **Content Writing WebApp 02**
+   - **Description:** It is a responsive web application which providers users to create tasks and manage them. Functionalities such as Create Task, Edit Task, Reflection on front page.
+   - **Technologies:** Node.js, Express, FileSystem.
+   - **Status:** Completed.
+   - ![image](https://github.com/user-attachments/assets/5f586176-94f3-404d-aff4-b77bdb72e366)
 
-3. **Project Name 3**
-   - **Description:** Brief description of the project.
-   - **Technologies:** List of technologies used.
-   - **Status:** Ongoing / Completed.
 
-*... Add more projects as you progress.*
+
 
 ## Getting Started
 
@@ -31,7 +25,6 @@ To get started with any of the projects in this repository, follow these steps:
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/sauravztx/Backend-Projects.git
-   ```
 
 2. **Navigate to the project directory:**
    ```bash
