@@ -15,6 +15,18 @@ This repository contains all the backend projects I am working on while learning
    - **Status:** Completed.
    - ![image](https://github.com/user-attachments/assets/5f586176-94f3-404d-aff4-b77bdb72e366)
 
+3. **MongoDB Basics 03**
+   - **Description:** Basics of MongoDB and CRUD Operations
+   - **Technologies:** Mongoose, MongoDB.
+   - **Status:** Completed.
+  
+3. **User Manager 04**
+   - **Description:** It is a web app where we can create users and store them in mongoDB database, also we can delete or edit them.
+   - **Technologies:** Mongoose, MongoDB, Express, Node.js, EJS.
+   - **Status:** Completed.
+   - ![image](https://github.com/user-attachments/assets/3e1cac3f-6240-4854-a1a6-a8042d45799d)
+
+
 
 
 
