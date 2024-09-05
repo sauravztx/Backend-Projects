@@ -6,6 +6,8 @@ app.get("/", function(req, res){
     res.send("working")
 })
 
+
+
 app.get('/create', async (req, res) => {
     let createdUser = await userModel.create({
         name: "Neo Thomas",
