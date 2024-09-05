@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href='/stylesheets/styles.css'>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="w-full h-full bg-zinc-900 text-white p-10">
+        <div class="nav mb-10 text-yellow-400">
+            <a href="/read">← Back</a>
+        </div>
+        <h1 class="text-3xl mb-4 text-medium tracking-tighter">Edit User</h1>
+        <div class="flex m-10 flex-wrap">
+            <div class="user w-60 p-2 bg-zinc-700 rounded-lg mb-4">
+                <div class="w-full h-60 rounded-lg bg-orange-200 overflow-hidden shadow-lg">
+                    <img id="user-image" class="w-full h-full object-cover" src="<%= user.image %>" />
+                </div>
+                <h3 id="user-name" class="text-lg mt-2 font-medium"><%= user.name %></h3>
+                <h5 id="user-email" class="text-sm text-zinc-400"><%= user.email %></h5>
+            </div>
+            <div class="ml-20">
+                <form action="/update/<%= user._id %>" method="post">
+                    <div class="grid col mt-5">
+                        <input id="name-input" class="px-5 py-3 mb-3 bg-transparent border-2 border-zinc-700 rounded-lg outline-none" type="text" name="name" placeholder="Name" value="<%= user.name %>">
+                        <input id="email-input" class="px-5 py-3 mb-3 bg-transparent border-2 border-zinc-700 rounded-lg outline-none" type="email" name="email" placeholder="Email" value="<%= user.email %>">
+                        <input id="image-input" class="px-5 py-3 mb-3 bg-transparent border-2 border-zinc-700 rounded-lg outline-none" type="text" name="image" placeholder="Image Url" value="<%= user.image %>">
+                        <input class="px-5 py-3 mt-3 bg-orange-700 shadow rounded-xl" type="submit" value="Update User">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        // Get references to form inputs and card elements
+        const nameInput = document.getElementById('name-input');
+        const emailInput = document.getElementById('email-input');
+        const imageInput = document.getElementById('image-input');
+    
+        const userName = document.getElementById('user-name');
+        const userEmail = document.getElementById('user-email');
+        const userImage = document.getElementById('user-image');
+    
+        // Add event listeners to update the card in real-time
+        nameInput.addEventListener('input', () => {
+            userName.textContent = nameInput.value;
+        });
+    
+        emailInput.addEventListener('input', () => {
+            userEmail.textContent = emailInput.value;
+        });
+    
+        imageInput.addEventListener('input', () => {
+            userImage.src = imageInput.value;
+        });
+    </script>
+</body>
+</html>

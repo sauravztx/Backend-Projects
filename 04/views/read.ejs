@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href='/stylesheets/styles.css'>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-zinc-900">
+    <div class="w-full h-full bg-zinc-900 text-white p-10">
+        <div class="nav mb-10 text-yellow-400">
+            <a href="/">← Back to Home</a>
+        </div>
+        <h1 class="text-3xl mb-4 text-medium tracking-tighter">All Users</h1>
+        <div class="users flex gap-3 flex-wrap">
+            <% if(users.length>0){ %>
+                <% users.forEach((user) => { %>
+                    <div class="user w-60 p-2 bg-zinc-700 rounded-lg">
+                        <div class="w-full h-60 rounded-lg bg-orange-200 overflow-hidden shadow-lg">
+                            <img class="w-full h-full object-cover" src="<%= user.image %>" />
+                        </div>
+                        <h3 class="text-lg mt-2 font-medium"><%= user.name %></h3>
+                        <h5 class="text-sm text-zinc-400"><%= user.email %></h5>
+                        <div class="flex gap-3 mt-2">
+                            <button class="bg-green-600 py-2 px-1 pr-2 mt-1 rounded-lg shadow-xl">
+                                <a href="/edit/<%= user._id %>">🖋Edit user</a>
+                            </button>
+                            <button class="bg-red-600 py-2 px-1 mt-1 pr-2 rounded-lg shadow-xl">
+                                <a href="/delete/<%= user._id %>">🗑️Delete user</a>
+                            </button>
+                        </div>
+                    </div>
+                    
+                <% }) %>
+            <% } else{ %>
+                <h3 class="text-zinc-500">No user..</h3>
+            <% } %>
+            
+        </div>
+        
+    </div>
+</body>
+</html>
