@@ -31,6 +31,12 @@ This repository contains all the backend projects I am working on while learning
    - **Technologies:** Express, Node.js, EJS.
    - **Status:** NOt a Project.
 
+4. **Authentication and authorization and token cookies handling**
+   - **Description:** It is a web app where we can create users and store them in mongoDB database, also it provides login feature where a user can login or logout themselves.
+   - **Technologies:** Mongoose, MongoDB, Express, Node.js, EJS.
+   - **Status:** Completed.
+   - ![image](![alt text](./06/image.png))
+
 
 
 
