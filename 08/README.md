@@ -1,5 +1,5 @@
 
-```markdown
+
 # Text Post Web App
 
 A fully functional text post web application that allows users to register, log in, create posts, edit them, like posts, and upload profile pictures. Built with Node.js, Express, EJS, and MongoDB, this application showcases the implementation of authentication, authorization, and basic CRUD operations.
@@ -26,7 +26,7 @@ A fully functional text post web application that allows users to register, log 
    ```bash
    git clone https://github.com/your-username/text-post-web-app.git
    cd text-post-web-app
-   ```
+   
 
 2. **Install dependencies:**
    ```bash
