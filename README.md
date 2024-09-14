@@ -31,11 +31,27 @@ This repository contains all the backend projects I am working on while learning
    - **Technologies:** Express, Node.js, EJS.
    - **Status:** NOt a Project.
 
-4. **Authentication and authorization and token cookies handling**
+6. **Authentication and authorization and token cookies handling**
    - **Description:** It is a web app where we can create users and store them in mongoDB database, also it provides login feature where a user can login or logout themselves.
    - **Technologies:** Mongoose, MongoDB, Express, Node.js, EJS.
    - **Status:** Completed.
    - ![image](![alt text](./06/image.png))
+
+7. **Multer Basics**
+   - **Description:** It is a npm package which helps to upload files.
+   - **Technologies:** npm, NOde.js.
+   - **Status:** Not a Project.
+
+8. **EchoPost - A Text Based Web App**
+   - **Description:** A fully functional text post web application that allows users to register, log in, create posts, edit them, like posts, and upload profile pictures. Built with Node.js, Express, EJS, and MongoDB, this application showcases the implementation of authentication, authorization, and basic CRUD operations.
+   - **Technologies:** Mongoose, MongoDB, Express, Node.js, EJS, Multer.
+   - **Status:** Completed.
+   
+
+
+   
+
+
 
 
 
