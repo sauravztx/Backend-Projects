@@ -6,6 +6,7 @@ const postModel = require('./models/post');
 app.get('/', (req, res) => {
     res.send("welcome");
 })
+//multer basics 
 
 app.get("/create", async (req, res) => {
     let user = await userModel.create({
