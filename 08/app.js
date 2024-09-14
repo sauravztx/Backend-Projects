@@ -131,7 +131,6 @@ app.post('/upload', isLoggedIn, upload.single('image'), async (req, res) => {
     res.redirect('/profile')
 })
 
-
 function isLoggedIn(req, res, next){
     if(req.cookies.token === "") res.redirect('/login');
     else{
@@ -141,8 +140,5 @@ function isLoggedIn(req, res, next){
     }
     
 }
-
-
-
 
 app.listen(3000);

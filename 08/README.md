@@ -100,7 +100,7 @@ A fully functional text post web application that allows users to register, log 
 Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
 
 ## License
-
+ 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 ```
 
