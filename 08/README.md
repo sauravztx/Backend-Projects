@@ -105,6 +105,10 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 =======
 
+<<<<<<< HEAD
 >>>>>>> ce7b5d9 (Update README.md)
+=======
+>>>>>>> ce7b5d94bc5f8350b5a3120da1335a471bf82398
+>>>>>>> 2d3eadfc9a700df5922a8831d3b191c4b7e73720
 ```
 
